@@ -1,41 +1,41 @@
 import React from "react";
 import MenuItem from "../StarterMenu/MenuItem";
 import Coffee from "../../assets/Coffee-cup.svg";
-import Drinks from '../../assets/Drinks.svg'
+import Drinks from '../../assets/Drinks.svg';
 import Image from "next/image";
 
 const DrinksMenu = () => {
   const drinkList = [
     {
-      title: "Caffè macchiato",
+      title: "Macchiato Coffee",
       description: "Toasted French bread topped with romano, cheddar",
       calories: "560 CAL",
-      price: "$32",
+      price: "PKR 9,000",
     },
     {
-      title: "Caffè macchiato",
+      title: "Espresso Macchiato",
       description: "Gorgonzola, ricotta, mozzarella, taleggio",
       calories: "700 CAL",
-      price: "$43",
+      price: "PKR 12,000",
     },
     {
-      title: "Caffe Latte Campuri",
+      title: "Latte Campuri",
       description: "Ground cumin, avocados, peeled and cubed",
       calories: "1000 CAL",
-      price: "$14",
+      price: "PKR 4,000",
     },
     {
-      title: "Tormentoso BushTea Pintoage",
+      title: "Bush Tea Blend",
       description: "Spreadable cream cheese, crumbled blue cheese",
       calories: "560 CAL",
-      price: "$35",
+      price: "PKR 10,000",
     },
   ];
   return (
     <div className="container my-5">
       <div className="row">
         <div className="col-lg-6 my-2 me-5">
-          <Image src={Coffee} className="img-fluid" />
+          <Image src={Coffee} className="img-fluid" alt="Coffee Cup" />
           <h2 className="fw-bold">Drinks</h2>
           {drinkList.map((item, index) => (
             <MenuItem
