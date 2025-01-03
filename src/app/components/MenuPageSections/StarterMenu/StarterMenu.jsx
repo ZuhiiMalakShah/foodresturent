@@ -4,32 +4,31 @@ import Coffee from "../../assets/Coffee-cup.svg";
 import MenuItem from "./MenuItem";
 import Image from "next/image";
 
-
 const StarterMenu = () => {
   const sMenuList = [
     {
-      title: "Alder Grilled Chinook Salmon",
+      title: "Grilled Salmon",
       description: "Toasted French bread topped with romano, cheddar",
       calories: "560 CAL",
-      price: "$32",
+      price: "PKR 9,000",
     },
     {
-      title: "Berries and Crème Tart",
+      title: "Berries Tart",
       description: "Gorgonzola, ricotta, mozzarella, taleggio",
       calories: "700 CAL",
-      price: "$43",
+      price: "PKR 12,000",
     },
     {
-      title: "Tormentoso Bush Pizza Pintoage",
+      title: "Spicy Pizza",
       description: "Ground cumin, avocados, peeled and cubed",
       calories: "1000 CAL",
-      price: "$14",
+      price: "PKR 4,000",
     },
     {
-      title: "Spicy Vegan Potato Curry",
+      title: "Vegan Potato Curry",
       description: "Spreadable cream cheese, crumbled blue cheese",
       calories: "560 CAL",
-      price: "$35",
+      price: "PKR 10,000",
     },
   ];
 
@@ -40,7 +39,7 @@ const StarterMenu = () => {
           <Image src={StarterImage} className="img-fluid" alt="Salmon" />
         </div>
         <div className="col-lg-6 my-2 me-4">
-          <Image src={Coffee} className="img-fluid" alt="Coffee Cup"/>
+          <Image src={Coffee} className="img-fluid" alt="Coffee Cup" />
           <h2 className="fw-bold">Starter Menu</h2>
           {sMenuList.map((item, index) => (
             <MenuItem
