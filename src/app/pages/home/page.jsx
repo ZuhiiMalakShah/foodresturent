@@ -9,7 +9,8 @@ import Reason from "@/app/components/HomeSections/Reason";
 import Testimonial from "@/app/components/HomeSections/Testimonial";
 import ExperienceSection from "@/app/components/MenuPageSections/Experience/ExperienceSection";
 import React from "react";
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6936620979716879"
+     crossorigin="anonymous"></script>
 const HomePage = () => {
   return (
     <div className="text-white bg-black">
