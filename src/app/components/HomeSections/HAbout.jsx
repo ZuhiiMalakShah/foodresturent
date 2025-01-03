@@ -8,41 +8,42 @@ import Image from "next/image";
 const HAbout = () => {
   const aboutData = [
     {
-      title: "Lacus nisi, et ac dapibus sit eu velit in consequat.",
+      title: "We deliver quality food with a focus on taste and freshness.",
       icon: check,
     },
     {
-      title: "Quisque diam pellentesque bibendum non dui volutpat fringilla.",
+      title: "Providing exceptional service tailored to your needs.",
       icon: check,
     },
     {
-      title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Committed to creating unique and delightful culinary experiences.",
       icon: check,
     },
   ];
+
   return (
     <div className="container my-5">
       <div className="container my-5">
         <div className="row">
           <div className="col-md-6 col-sm-12">
             <div className="container my-5 mx-1">
-              <p className="primary-color fs-4 Great-Vibes">About us</p>
+              <p className="primary-color fs-4 Great-Vibes">About Us</p>
               <span className="fs-2 fw-bold text-white">
                 <span className="primary-color fs-2 fw-bold">We </span>
-                Create the best foody product
+                Create the Best Culinary Products
               </span>
               <p className="text-white mt-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                diam pellentesque bibendum non dui volutpat fringilla bibendum.
-                Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-                Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus
-                sit eu velit in consequat.
+                Our passion for food drives us to deliver the best dining
+                experiences. From exceptional service to dishes crafted with
+                the finest ingredients, we strive to bring joy to every meal.
+                With a focus on quality, taste, and innovation, we create
+                moments worth savoring.
               </p>
               {aboutData.map((item, index) => (
                 <div className="d-flex justify-content-start my-3" key={index}>
                   <Image
                     src={item.icon}
-                    alt="tick"
+                    alt="checkmark"
                     className="img-fluid me-2"
                   />
                   <span>{item.title}</span>
@@ -59,14 +60,18 @@ const HAbout = () => {
           <div className="col-md-6 col-sm-12 my-5">
             <div className="container">
               <div className="d-flex justify-content-center">
-                <Image src={EggDish} alt="Egg" className="img-fluid" />
+                <Image src={EggDish} alt="Egg Dish" className="img-fluid" />
               </div>
               <div className="d-flex justify-content-between mt-2">
                 <div className="container px-1">
-                  <Image src={FoodDish} alt="Food" className="img-fluid" />
+                  <Image src={FoodDish} alt="Food Dish" className="img-fluid" />
                 </div>
                 <div className="container px-1">
-                  <Image src={Sandwich} alt="Sandwich" className="img-fluid" />
+                  <Image
+                    src={Sandwich}
+                    alt="Sandwich Dish"
+                    className="img-fluid"
+                  />
                 </div>
               </div>
             </div>
