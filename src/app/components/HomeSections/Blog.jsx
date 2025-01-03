@@ -12,19 +12,19 @@ const Blog = () => {
   const blogData = [
     {
       date: "10 February 2022",
-      title: "Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis",
+      title: "Delicious Recipes to Make Your Day Brighter",
       link: "/",
       imageSrc: Burger,
     },
     {
       date: "10 February 2022",
-      title: "Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis",
+      title: "Top 5 Pizzas You Should Try This Year",
       link: "/",
       imageSrc: Pizza,
     },
     {
       date: "10 February 2022",
-      title: "Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis",
+      title: "Everything You Need to Know About Shawarma",
       link: "/",
       imageSrc: Shwarma,
     },
@@ -36,8 +36,7 @@ const Blog = () => {
         <div className="col-sm-12 text-center">
           <p className="primary-color fs-4 Great-Vibes">Food Category</p>
           <span className="fs-2 fw-bold text-white">
-            <span className="primary-color fs-2 fw-bold">La</span>
-            test News & Blog
+            <span className="primary-color fs-2 fw-bold">Latest</span> News & Blog
           </span>
         </div>
       </div>
@@ -48,7 +47,7 @@ const Blog = () => {
               <div className="card-img">
                 <Image
                   src={item.imageSrc}
-                  alt="Blog Image"
+                  alt={`Blog about ${item.title}`}
                   className="img-fluid"
                 />
               </div>
@@ -65,9 +64,9 @@ const Blog = () => {
                     </Link>
                   </div>
                   <div className="position-absolute top-0 end-0">
-                    <Image src={Thumbsup} alt="thumbs" className="mx-1" />
-                    <Image src={ChatDots} alt="ChatDots" className="mx-1" />
-                    <Image src={ShareNetwork} alt="ShareNetwork" className="mx-1" />
+                    <Image src={Thumbsup} alt="Like" className="mx-1" />
+                    <Image src={ChatDots} alt="Comments" className="mx-1" />
+                    <Image src={ShareNetwork} alt="Share" className="mx-1" />
                   </div>
                 </div>
               </div>
