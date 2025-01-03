@@ -1,4 +1,5 @@
-'use client'
+'use client';
+
 import React from "react";
 import User from "../assets/User Img.svg";
 import Quotes from "../assets/Quotes.svg";
@@ -16,7 +17,7 @@ const Testimonial = () => {
       userImage: User,
       quoteImage: Quotes,
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+        "The quality of service and the taste of food were truly exceptional. I couldn't have asked for a better experience. Highly recommended!",
       stars: [Star, Star, Star, Star, GrayStar],
       userName: "Alamin Hasan",
       userRole: "Food Specialist",
@@ -25,7 +26,7 @@ const Testimonial = () => {
       userImage: User,
       quoteImage: Quotes,
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+        "The ambiance was amazing, and the food was absolutely delicious. It's definitely worth visiting again and again!",
       stars: [Star, Star, Star, Star, GrayStar],
       userName: "RHS",
       userRole: "Food Vlogger",
@@ -34,7 +35,7 @@ const Testimonial = () => {
       userImage: User,
       quoteImage: Quotes,
       text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.",
+        "I had an incredible experience here. The attention to detail and the flavors were simply outstanding. A must-try for food lovers!",
       stars: [Star, Star, Star, Star, GrayStar],
       userName: "Hasan",
       userRole: "Food Vlogger",
@@ -47,7 +48,7 @@ const Testimonial = () => {
         <div className="col-sm-12">
           <p className="primary-color fs-4 Great-Vibes">Testimonials</p>
           <p className="fs-2 fw-bold text-white mb-5">
-            What our clients are saying
+            What Our Clients Are Saying
           </p>
           <div className="container bg-flower">
             <Swiper
