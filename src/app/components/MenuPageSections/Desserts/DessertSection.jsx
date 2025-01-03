@@ -7,28 +7,28 @@ import Image from "next/image";
 const DessertSection = () => {
   const dMenuList = [
     {
-      title: "Fig and lemon cake",
+      title: "Fig and Lemon Cake",
       description: "Toasted French bread topped with romano, cheddar",
       calories: "560 CAL",
-      price: "$32",
+      price: "PKR 9,000",
     },
     {
-      title: "Creamy mascarpone cake",
+      title: "Creamy Mascarpone Cake",
       description: "Gorgonzola, ricotta, mozzarella, taleggio",
       calories: "700 CAL",
-      price: "$43",
+      price: "PKR 12,000",
     },
     {
-      title: "Pastry, blueberries, lemon juice",
+      title: "Blueberry Lemon Pastry",
       description: "Ground cumin, avocados, peeled and cubed",
       calories: "1000 CAL",
-      price: "$14",
+      price: "PKR 4,000",
     },
     {
-      title: "Pain au chocolat",
+      title: "Chocolate Croissant",
       description: "Spreadable cream cheese, crumbled blue cheese",
       calories: "560 CAL",
-      price: "$35",
+      price: "PKR 10,000",
     },
   ];
   return (
@@ -38,7 +38,7 @@ const DessertSection = () => {
           <Image src={CupCake} className="img-fluid" alt="Cup Cake" />
         </div>
         <div className="col-lg-6 my-2 me-4">
-          <Image src={Coffee} className="img-fluid" />
+          <Image src={Coffee} className="img-fluid" alt="Coffee Cup" />
           <h2 className="fw-bold">Dessert</h2>
           {dMenuList.map((item, index) => (
             <MenuItem
