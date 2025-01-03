@@ -13,7 +13,9 @@ const BottomFooter = () => {
         <div className="row">
           <div className="col-lg-6 d-flex align-items-center">
             <p className="p-2 my-2">
-              Copyright © 2022 by Shayan meo . All Rights Reserved.
+              Copyright © 2022 by Hafsa Manzoor. All Rights Reserved. <br />
+              Owner: Hafsa Manzoor <br />
+              Email: <a href="mailto:hafsamz212@gmail.com">hafsamz212@gmail.com</a>
             </p>
           </div>
           <div className="col-lg-6">
@@ -31,5 +33,5 @@ const BottomFooter = () => {
   );
 };
 
-
 export default BottomFooter;
+
