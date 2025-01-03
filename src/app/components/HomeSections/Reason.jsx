@@ -26,10 +26,10 @@ const Reason = () => {
         <div className="col-md-6">
           <div className="my-4 d-flex align-items-end">
             <div>
-              <Image src={foodItems[0]} alt="food Item" className="img-fluid" />
+              <Image src={foodItems[0]} alt="Food Item" className="img-fluid" />
             </div>
             <div className="mx-3">
-              <Image src={foodItems[1]} alt="food Item" className="img-fluid" />
+              <Image src={foodItems[1]} alt="Food Item" className="img-fluid" />
             </div>
           </div>
           <div className="d-flex p-1">
@@ -57,17 +57,15 @@ const Reason = () => {
         </div>
         <div className="col-lg-5 ms-2">
           <div className="container my-5 mx-1">
-            <p className="primary-color fs-4 Great-Vibes">Why Choose us</p>
+            <p className="primary-color fs-4 Great-Vibes">Why Choose Us</p>
             <span className="fs-2 fw-bold text-white">
               <span className="primary-color fs-2 fw-bold">Ex</span>
-              tra ordinary taste And Experienced
+              traordinary Taste and Experience
             </span>
             <p className="text-white mt-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              diam pellentesque bibendum non dui volutpat fringilla bibendum.
-              Urna, elit augue urna, vitae feugiat pretium donec id elementum.
-              Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit
-              eu velit in consequat.
+              Enjoy top-notch culinary delights crafted with precision and care. 
+              Our dishes are a perfect blend of taste and quality, designed to satisfy 
+              your cravings. Every bite is an experience of excellence.
             </p>
           </div>
           <div className="d-flex justify-content-start mx-2">
@@ -95,14 +93,14 @@ const Reason = () => {
               className="position-relative whiteBg rounded"
               style={{ width: "16rem" }}
             >
-              <Image src={YellowLine} alt="line" className="img-fluid" />
+              <Image src={YellowLine} alt="Decorative Line" className="img-fluid" />
               <div className="position-absolute d-flex top-0">
                 <div className="container d-flex align-items-center m-4">
                   <span className="primary-color fw-bold me-0 fs-2">30+</span>
                 </div>
                 <div className="text-black my-3">
                   <p className="fs-6">Years of</p>
-                  <span className="fw-bold fs-6">Experienced</span>
+                  <span className="fw-bold fs-6">Experience</span>
                 </div>
               </div>
             </div>
