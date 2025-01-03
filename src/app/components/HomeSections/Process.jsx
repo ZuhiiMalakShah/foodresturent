@@ -5,14 +5,15 @@ import play from "../assets/Play.svg";
 const Process = () => {
   const contentData = [
     {
-      title: "Restaurant Active Process",
-      description: "Document Every Food Bean Process until it is saved.",
+      title: "Restaurant Operational Process",
+      description: "Track Every Stage of the Food Preparation Process.",
       para:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna.",
+        "Experience a meticulous approach to food quality, from the selection of ingredients to the final presentation. We ensure every step is handled with care and precision.",
       buttonText: "Read More",
-      playVideoText: "Play Video",
+      playVideoText: "Watch Video",
     },
   ];
+
   return (
     <div className="container-fluid my-5">
       <div className="row processBg">
@@ -39,8 +40,10 @@ const Process = () => {
                 >
                   {item.buttonText}
                 </button>
-                <Image src={play} alt="play" className="img-fluid me-2" />
-                {item.playVideoText}
+                <div className="d-inline-flex align-items-center">
+                  <Image src={play} alt="Play Video" className="img-fluid me-2" />
+                  <span>{item.playVideoText}</span>
+                </div>
               </div>
             </div>
           ))}
